@@ -11,6 +11,20 @@ The main service here is [ModularBot](https://github.com/GroinkIndustries/Groink
 
 An interface connects to a source (eg a Twitch chat, Discord channel, or an input in command line) and processes the messages to be sent to a service with a standard format.
 
+
+# Install
+To install the bot, run:
+```bash
+git clone https://github.com/GroinkIndustries/GroinkBot.git
+cd GroinkBot
+pip install . 
+```
+
+If libraries are missing, run:
+```
+pip install discord.py irc pandas
+```
+
 # Demo
 
 ## Create a bot
