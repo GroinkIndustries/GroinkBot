@@ -1,0 +1,8 @@
+README.md
+setup.py
+groinkbot/__init__.py
+groinkbot.egg-info/PKG-INFO
+groinkbot.egg-info/SOURCES.txt
+groinkbot.egg-info/dependency_links.txt
+groinkbot.egg-info/not-zip-safe
+groinkbot.egg-info/top_level.txt
