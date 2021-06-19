@@ -36,10 +36,10 @@ class ModularBot(Bot):
             r += " " + m
         return r + ">"
 
-    def import_blueprint(self, bleprint):
-        self.pref_commands = {**self.pref_commands, **bleprint.pref_commands}
-        self.call_commands = {**self.call_commands, **bleprint.call_commands}
-        self.text_commands = {**self.text_commands, **bleprint.text_commands}
+    def import_blueprint(self, blueprint):
+        self.pref_commands = {**self.pref_commands, **blueprint.pref_commands}
+        self.call_commands = {**self.call_commands, **blueprint.call_commands}
+        self.text_commands = {**self.text_commands, **blueprint.text_commands}
 
     def import_module(self, module_path, module_name, **kwargs):
         mod = importlib.import_module(module_path)

@@ -30,8 +30,8 @@ songs = {
     "bet on it":["I'm not gonna stop, that's who I am", "I'll give it all I got, that is my plan", "When I find what I lost You know you can", "Bet on it, bet on it, Bet on it, bet on it"],
     "ankleville":["A duck walked up to the Ankleville stand", "And he said to the woman, running the stand: Hey! (Bum bum bum) Got any peeps?", "No we just sell cuties, but they cute and they sweet and they all make my day. Can I get you one?", "The duck said: I'll pass! Then he waddled away"],
     "crown":["We fight for those you left behind", "We live for those who were denied ", "We know your fate is set in stone", "We've come to take the throne"],
-    "lec rap": ["Back to back to back", "You know these titles start to stack", "Just like all your failed splits", "Start to think that this is it"]
-
+    "lec rap": ["Back to back to back", "You know these titles start to stack", "Just like all your failed splits", "Start to think that this is it"],
+    "butter": ["Side step, right, left to my beat", "High like the moon, rock with me, baby", "Know that I got that heat", "Let me show you 'cause talk is cheap", "Side step, right, left to my beat"]
 }
 
 @auth(1, [call + "sing hb to "])

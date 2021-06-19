@@ -55,7 +55,7 @@ class Discord(discordlib.Client, Interface):
         self.channel = message.channel
         msg = message.content
 
-        print(f"{uname} ({urights}): {msg}")
+        print(f"{user.lowername} ({urights}): {msg}")
 
         self.service.get_message(msg, user)
 

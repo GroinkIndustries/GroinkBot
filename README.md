@@ -31,7 +31,7 @@ pip install discord.py irc pandas
 ```python
 from groinkbot.service.modular import ModularBot
 gb = ModularBot()
-gb.add_standard_modules(["angelarcher", "singbot"]) # Add standard modules
+gb.add_standard_modules(["basic", "singbot"]) # Add standard modules
 ```
 
 ## Add an interface
@@ -67,7 +67,24 @@ bot.start()
 ```
 
 ### Discord
-`TODO`
+```python
+from groinkbot.interface.discord_interface import Discord
+
+roles = {
+        "groink_le_fada":3,
+        "angelarcherlol":2,
+        "duffmanlol":1
+}
+
+dc_auth = {
+  "token":"XXXXXXXXXXXXXXXXXXXXX.XXXXX.XXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "guild":"<Server Name>",
+  "channel":"<channel>"
+}
+
+bot = Discord(dc_auth, roles, gb, guild="Notes")
+bot.start()
+```
 
 ## Adding a custom module
 ### Creating a module
